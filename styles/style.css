@@ -71,6 +71,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   height: 300px;
   overflow: auto;
   gap: 30px;
@@ -81,6 +82,7 @@ ol {
 .result__video-container {
   width: 720px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -188,6 +190,7 @@ ol {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   line-height: 0.9;
 }
 
