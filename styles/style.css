@@ -57,6 +57,12 @@ ol {
   width: 1140px;
 }
 
+.result  {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -81,7 +87,6 @@ ol {
 
 .result__video-container {
   width: 720px;
-  margin-bottom: 16px;
   position: relative;
 }
 
