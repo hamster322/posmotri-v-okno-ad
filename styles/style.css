@@ -171,6 +171,9 @@ ol {
   outline: 1px solid #fff;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
 .content__video-card-title {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
